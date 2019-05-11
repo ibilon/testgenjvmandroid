@@ -44,9 +44,9 @@ Create the apk: `build-tools/28.0.3/aapt package -f -m -F build/bin/testgenjvman
 
 Include classes.dex into the apk: `cd build/bin && ../../build-tools/28.0.3/aapt add testgenjvmandroid.unaligned.apk classes.dex; cd ../..`
 
-Sign the package: `build-tools/28.0.3/apksigner sign --ks testgenjvmandroid.keystore build/bin/testgenjvmandroid.unaligned.apk`, this will required the keystore password.
-
 Align the apk: `build-tools/28.0.3/zipalign -f 4 build/bin/testgenjvmandroid.unaligned.apk build/bin/testgenjvmandroid.apk`
+
+Sign the package: `build-tools/28.0.3/apksigner sign --ks testgenjvmandroid.keystore build/bin/testgenjvmandroid.apk`, this will required the keystore password.
 
 ## Output
 
