@@ -1,0 +1,12 @@
+avds/
+build/
+build-tools/
+emulator/
+licenses/
+patcher/
+platform-tools/
+platforms/
+system-images/
+tools/
+.knownPackages
+testgenjvmandroid.keystore

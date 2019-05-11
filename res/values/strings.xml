@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">TestGenjvmAndroid</string>
+	<string name="title_activity_main">Testing genjvm on android</string>
+</resources>

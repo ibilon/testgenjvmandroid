@@ -1,0 +1,6 @@
+--class-path src
+--java build
+-D jvm
+--java-lib platforms/android-28/android.jar
+--java-lib build/R.jar
+com.testgenjvmandroid.TestGenjvmAndroid
