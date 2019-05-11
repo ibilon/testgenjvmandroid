@@ -22,7 +22,7 @@ You'll have to supply a password of at least 6 characters, which will be require
 
 ### Using shell script
 
-Run: `sh build.sh`, this will required the keystore password.
+Run: `sh build.sh`, this will ask for the keystore password.
 
 ### Manually
 
@@ -46,7 +46,7 @@ Include classes.dex into the apk: `cd build/bin && ../../build-tools/28.0.3/aapt
 
 Align the apk: `build-tools/28.0.3/zipalign -f 4 build/bin/testgenjvmandroid.unaligned.apk build/bin/testgenjvmandroid.apk`
 
-Sign the package: `build-tools/28.0.3/apksigner sign --ks testgenjvmandroid.keystore build/bin/testgenjvmandroid.apk`, this will required the keystore password.
+Sign the package: `build-tools/28.0.3/apksigner sign --ks testgenjvmandroid.keystore build/bin/testgenjvmandroid.apk`, this will ask for the keystore password.
 
 ## Output
 
