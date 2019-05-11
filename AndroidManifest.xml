@@ -1,8 +1,6 @@
 <?xml version='1.0'?>
 <manifest xmlns:android='http://schemas.android.com/apk/res/android' xmlns:tools="http://schemas.android.com/tools" package='com.testgenjvmandroid' android:versionCode='1' android:versionName='1.0'>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
+	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28" />
 
 	<application android:label='Testing genjvm on android'>
         <activity android:name='com.testgenjvmandroid.TestGenjvmAndroid'>

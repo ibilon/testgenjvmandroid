@@ -66,4 +66,4 @@ Run the emulator: `tools/emulator -avd test`
 
 In another terminal, upload the apk: `platform-tools/adb install build/bin/testgenjvmandroid.apk`
 
-Launch the apk: `platform-tools/adb shell am start -m com.testgenjvmandroid/.TestGenjvmAndroid`
+Launch the apk: `platform-tools/adb shell am start -n com.testgenjvmandroid/.TestGenjvmAndroid`
